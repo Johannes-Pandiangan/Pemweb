@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  background: #164863;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  background: #427D9D;
+  padding: 10px 0;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: right;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  margin: 0 15px;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.3s;
+  padding: 8px 12px;
+  border-radius: 5px;
+}
+
+.navbar ul li a:hover {
+  background: cyan;
+  color: black;
+
+}
+
+.navbar ul li a.active {
+  background: cyan;
+  color: black;
+}
+
+.content {
+  padding: 50px;
+}
+
+section {
+  margin-bottom: 50px;
+  padding: 20px;
+  background: #9BBEC8;
+  border-radius: 10px;
+}
+
+
+h1 {
+  color: #164863;
+  margin-bottom: 15px;
+}
+
+.foto-profil {
+  width: 180px;
+  height: 180px;
+  display: block;
+  margin: 15px auto;
+  object-fit: fill;
+  border: 5px solid #427D9D;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid #427D9D;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background: #427D9D;
+  color: white;
+}
+
+footer {
+  background: rgb(3, 3, 86);
+  text-align: center;
+  padding: 15px;
+  margin-top: 15px;
+  color: white;
+}
+
+footer p {
+  margin: 0 0 10px;
+  font-weight: bold;
+}
+
+footer .social {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  margin: 15px;
+  font-size: 30px;
+  padding: 8px 15px;
+  border: 2px solid white;
+  border-radius: 25px;
+  transition: 0.3s;
+}
+
+footer .social:hover {
+  background: cyan;
+  color: black;
+}
+
+html {
+  scroll-behavior: smooth;
+}
